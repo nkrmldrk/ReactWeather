@@ -7,9 +7,13 @@ function App() {
   return (
     <div className="Main">
       <Input/>
-      <Card/>
-      <Card/>
-      <Card/>
+
+      <div className='CardList'>
+        <Card/>
+        <Card/>
+        <Card/>
+      </div>
+      
     </div>
   );
 }

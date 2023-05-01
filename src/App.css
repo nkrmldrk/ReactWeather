@@ -4,6 +4,10 @@
   padding: 24px;
 }
 
+/*--------------
+     INPUT
+---------------*/
+        
 .InputWrap{
   display: flex;
   height: 50px;
@@ -27,4 +31,12 @@
   width: 20%;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+
+/*-----------
+    CARD
+-----------*/
+
+.CardList{
+  display: flex;
 }
