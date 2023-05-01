@@ -1,23 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState, useRef} from 'react';
 
 import '../App.css';
 
-const InputTag = () => {
-  const [inputValue, setInputValue] = useState('empty');
+export const Input = ({setCitiesList}) => {
+  const [inputValue, setInputValue] = useState('');
+  const inputRef = useRef(null);
+
+  const handleOnClick = () => {
+    setCitiesList((curerntArray) => [...curerntArray, inputValue]);
+    setInputValue('');
+    inputRef.current.focus();
+  }
+
   const handleOnChange = (event) => {
     setInputValue(event.target.value);
   }
 
-  return (
-    <input className='Input' onChange={handleOnChange} value={inputValue}/>
-  )
-};
-
-const Button = () => (<button className='Button'>Add city</button>)
-
-export const Input = () => {
+  return(
     <div className="InputWrap">
-        <InputTag />
-        <Button />
+      <input className='Input' onChange={handleOnChange} value={inputValue} ref={inputRef}/>
+      <button className='Button' onClick={handleOnClick}>Add city</button>
     </div>
-};
+  )
+}
