@@ -8,6 +8,8 @@ function App() {
     <div className="Main">
       <Input/>
       <Card/>
+      <Card/>
+      <Card/>
     </div>
   );
 }
