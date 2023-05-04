@@ -1,6 +1,6 @@
 .Main{
   background-color: #d8d8d8;
-  height: 100vh;
+  min-height: 100vh;
   padding: 24px;
 }
 
@@ -40,9 +40,11 @@
 
 .CardList{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .Card{
+  margin: 24px 24px 0 0;
   width: 200px;
   height: fit-content;
   padding: 12px;
@@ -52,8 +54,14 @@
   color: #fff;
 }
 
-.Card:not(:first-child){
-  margin-left: 24px;
+.ActionButton{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.DeleteCity{
+  background-color: #fff;
+  border: none;
 }
 
 .MainInfo{
@@ -89,3 +97,4 @@
 .Information > div {
   margin-top: 4px;
 }
+
