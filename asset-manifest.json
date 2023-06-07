@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nkrmldrk.github.io/ReactWeather/static/css/main.5d4b19e2.css",
-    "main.js": "/nkrmldrk.github.io/ReactWeather/static/js/main.c060d1cd.js",
-    "static/js/787.13d76ca7.chunk.js": "/nkrmldrk.github.io/ReactWeather/static/js/787.13d76ca7.chunk.js",
-    "index.html": "/nkrmldrk.github.io/ReactWeather/index.html",
-    "main.5d4b19e2.css.map": "/nkrmldrk.github.io/ReactWeather/static/css/main.5d4b19e2.css.map",
-    "main.c060d1cd.js.map": "/nkrmldrk.github.io/ReactWeather/static/js/main.c060d1cd.js.map",
-    "787.13d76ca7.chunk.js.map": "/nkrmldrk.github.io/ReactWeather/static/js/787.13d76ca7.chunk.js.map"
+    "main.css": "/ReactWeather/static/css/main.5d4b19e2.css",
+    "main.js": "/ReactWeather/static/js/main.1aea1ca2.js",
+    "static/js/787.13d76ca7.chunk.js": "/ReactWeather/static/js/787.13d76ca7.chunk.js",
+    "index.html": "/ReactWeather/index.html",
+    "main.5d4b19e2.css.map": "/ReactWeather/static/css/main.5d4b19e2.css.map",
+    "main.1aea1ca2.js.map": "/ReactWeather/static/js/main.1aea1ca2.js.map",
+    "787.13d76ca7.chunk.js.map": "/ReactWeather/static/js/787.13d76ca7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d4b19e2.css",
-    "static/js/main.c060d1cd.js"
+    "static/js/main.1aea1ca2.js"
   ]
 }
